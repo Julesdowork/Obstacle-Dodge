@@ -2,9 +2,9 @@ using UnityEngine;
 
 public class Mover : MonoBehaviour
 {
-    float xValue = 0;
-    float yValue = 0.05f;
-    float zValue = 0;
+    [SerializeField] float xValue = 0;
+    [SerializeField] float yValue = 0.001f;
+    [SerializeField] float zValue = 0;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -15,6 +15,5 @@ public class Mover : MonoBehaviour
     void Update()
     {
         transform.Translate(xValue, yValue, zValue);
-
     }
 }
