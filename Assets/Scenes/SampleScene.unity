@@ -552,8 +552,9 @@ GameObject:
   - component: {fileID: 534656212}
   - component: {fileID: 534656211}
   - component: {fileID: 534656210}
-  - component: {fileID: 534656209}
   - component: {fileID: 534656214}
+  - component: {fileID: 534656209}
+  - component: {fileID: 534656215}
   m_Layer: 0
   m_Name: Buck Dodgers
   m_TagString: Untagged
@@ -693,6 +694,18 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 116
   m_CollisionDetection: 0
+--- !u!114 &534656215
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 534656208}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5663cd4b847facb4c85908052a1215f2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Scorer
 --- !u!1 &561777105
 GameObject:
   m_ObjectHideFlags: 0
