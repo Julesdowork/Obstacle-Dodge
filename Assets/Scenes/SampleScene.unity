@@ -428,6 +428,7 @@ GameObject:
   - component: {fileID: 455885885}
   - component: {fileID: 455885884}
   - component: {fileID: 455885883}
+  - component: {fileID: 455885887}
   m_Layer: 0
   m_Name: Obstacle (2)
   m_TagString: Untagged
@@ -527,6 +528,18 @@ Transform:
   m_Children: []
   m_Father: {fileID: 667605962}
   m_LocalEulerAnglesHint: {x: 0, y: 32.899, z: 0}
+--- !u!114 &455885887
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 455885882}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a21b7c32e95fdd74096d02589985bb13, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ObjectHit
 --- !u!1 &534656208
 GameObject:
   m_ObjectHideFlags: 0
@@ -887,6 +900,7 @@ GameObject:
   - component: {fileID: 1089351543}
   - component: {fileID: 1089351542}
   - component: {fileID: 1089351541}
+  - component: {fileID: 1089351544}
   m_Layer: 0
   m_Name: Wall
   m_TagString: Untagged
@@ -986,6 +1000,18 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1089351539}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1089351544
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1089351539}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a21b7c32e95fdd74096d02589985bb13, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ObjectHit
 --- !u!1 &1157069327
 GameObject:
   m_ObjectHideFlags: 0
@@ -998,6 +1024,7 @@ GameObject:
   - component: {fileID: 1157069331}
   - component: {fileID: 1157069330}
   - component: {fileID: 1157069329}
+  - component: {fileID: 1157069332}
   m_Layer: 0
   m_Name: Wall (2)
   m_TagString: Untagged
@@ -1097,6 +1124,18 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1157069327}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1157069332
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1157069327}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a21b7c32e95fdd74096d02589985bb13, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ObjectHit
 --- !u!1 &1286752649
 GameObject:
   m_ObjectHideFlags: 0
@@ -1221,6 +1260,7 @@ GameObject:
   - component: {fileID: 1480213083}
   - component: {fileID: 1480213082}
   - component: {fileID: 1480213081}
+  - component: {fileID: 1480213084}
   m_Layer: 0
   m_Name: Wall (1)
   m_TagString: Untagged
@@ -1320,6 +1360,18 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1480213079}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1480213084
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1480213079}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a21b7c32e95fdd74096d02589985bb13, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ObjectHit
 --- !u!1 &1543834749
 GameObject:
   m_ObjectHideFlags: 0
@@ -1332,6 +1384,7 @@ GameObject:
   - component: {fileID: 1543834752}
   - component: {fileID: 1543834751}
   - component: {fileID: 1543834750}
+  - component: {fileID: 1543834754}
   m_Layer: 0
   m_Name: Obstacle
   m_TagString: Untagged
@@ -1431,6 +1484,18 @@ Transform:
   m_Children: []
   m_Father: {fileID: 667605962}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1543834754
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1543834749}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a21b7c32e95fdd74096d02589985bb13, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ObjectHit
 --- !u!1 &1608049289
 GameObject:
   m_ObjectHideFlags: 0
@@ -1478,6 +1543,7 @@ GameObject:
   - component: {fileID: 1646725258}
   - component: {fileID: 1646725257}
   - component: {fileID: 1646725256}
+  - component: {fileID: 1646725260}
   m_Layer: 0
   m_Name: Obstacle (3)
   m_TagString: Untagged
@@ -1577,6 +1643,18 @@ Transform:
   m_Children: []
   m_Father: {fileID: 667605962}
   m_LocalEulerAnglesHint: {x: 0, y: 31.479, z: 0}
+--- !u!114 &1646725260
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1646725255}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a21b7c32e95fdd74096d02589985bb13, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ObjectHit
 --- !u!1 &1923071863
 GameObject:
   m_ObjectHideFlags: 0
@@ -1589,6 +1667,7 @@ GameObject:
   - component: {fileID: 1923071867}
   - component: {fileID: 1923071866}
   - component: {fileID: 1923071865}
+  - component: {fileID: 1923071868}
   m_Layer: 0
   m_Name: Wall (3)
   m_TagString: Untagged
@@ -1688,6 +1767,18 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1923071863}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1923071868
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1923071863}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a21b7c32e95fdd74096d02589985bb13, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ObjectHit
 --- !u!1 &1959865014
 GameObject:
   m_ObjectHideFlags: 0
@@ -1700,6 +1791,7 @@ GameObject:
   - component: {fileID: 1959865017}
   - component: {fileID: 1959865016}
   - component: {fileID: 1959865015}
+  - component: {fileID: 1959865019}
   m_Layer: 0
   m_Name: Obstacle (1)
   m_TagString: Untagged
@@ -1799,6 +1891,18 @@ Transform:
   m_Children: []
   m_Father: {fileID: 667605962}
   m_LocalEulerAnglesHint: {x: 0, y: -64.995, z: 0}
+--- !u!114 &1959865019
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1959865014}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a21b7c32e95fdd74096d02589985bb13, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ObjectHit
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
