@@ -950,6 +950,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9cfda8b6f17a20540a256ea0414f4428, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Dropper
+  timeToWait: 3
 --- !u!114 &946569032
 MonoBehaviour:
   m_ObjectHideFlags: 0
