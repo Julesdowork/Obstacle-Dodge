@@ -705,10 +705,10 @@ Transform:
   m_Children:
   - {fileID: 1286752653}
   - {fileID: 1543834753}
-  - {fileID: 1646725259}
-  - {fileID: 455885886}
-  - {fileID: 946569030}
   - {fileID: 1959865018}
+  - {fileID: 455885886}
+  - {fileID: 1646725259}
+  - {fileID: 946569030}
   - {fileID: 1608049290}
   - {fileID: 1769004919}
   m_Father: {fileID: 0}
@@ -727,7 +727,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5192530994593027314, guid: a62fa6897c0dcef47ba8447c275daf49, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5295963804114594781, guid: a62fa6897c0dcef47ba8447c275daf49, type: 3}
       propertyPath: player
@@ -1041,7 +1041,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5192530994593027314, guid: a62fa6897c0dcef47ba8447c275daf49, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5295963804114594781, guid: a62fa6897c0dcef47ba8447c275daf49, type: 3}
       propertyPath: player
@@ -1269,7 +1269,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5192530994593027314, guid: a62fa6897c0dcef47ba8447c275daf49, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5295963804114594781, guid: a62fa6897c0dcef47ba8447c275daf49, type: 3}
       propertyPath: player
@@ -1477,7 +1477,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5192530994593027314, guid: a62fa6897c0dcef47ba8447c275daf49, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5295963804114594781, guid: a62fa6897c0dcef47ba8447c275daf49, type: 3}
       propertyPath: player
@@ -2040,7 +2040,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5192530994593027314, guid: a62fa6897c0dcef47ba8447c275daf49, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5295963804114594781, guid: a62fa6897c0dcef47ba8447c275daf49, type: 3}
       propertyPath: player
